@@ -30,7 +30,6 @@ public class Main {
         } else {
             System.out.println("Перекидывайте");
         }
-        System.out.println(userChoice - compChoice);
     }
 }
 
