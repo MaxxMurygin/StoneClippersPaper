@@ -22,7 +22,7 @@ public class Main {
     }
     public static void playTheGame(int userChoice, int compChoice){
         String[] choice = {"Камень", "Ножницы", "Бумага"};
-        System.out.println("Ты: " + choice[userChoice] + userChoice + " Комп: " + choice[compChoice] +  compChoice);
+        System.out.println("Ты: " + choice[userChoice] + " Комп: " + choice[compChoice]);
         if (userChoice - compChoice == 1 || userChoice - compChoice == -2){
             System.out.println("Комп выиграл");
         } else if (userChoice - compChoice == -1 || userChoice - compChoice == 2){
